@@ -25,7 +25,7 @@ My current research interests are situated between the NLP and IR fields, where 
 
 Previously I graduated with my Bachelor's degree from Brigham Young University in computer science and statistics, where I was advised by [Kevin Seppi](https://cs.byu.edu/faculty/faculty-directory/kevin-seppi/) and [Quinn Snell](https://cs.byu.edu/faculty/faculty-directory/quinn-snell/).
 
-I am currently interning at Google Deepmind with Jinhyuk Lee, Michael Boratko, and Iftekhar Naim. 
+I am currently interning at Google Deepmind with [Jinhyuk Lee](https://jhyuklee.github.io/), [Michael Boratko](https://www.mboratko.com/), and [Iftekhar Naim](https://www.linkedin.com/in/iftekhar-naim-6a85664/). 
 
 In the past, I've spent time interning with many excellent mentors: at [Samaya AI](https://samaya.ai/) in 2024 with [Jack Hessel](https://jmhessel.com/), [Ashwin Paranjape](https://ashwinparanjape.github.io/), and [Yuhao Zhang](https://yuhao.im/), at Semantic Scholar/AI2 working with [Luca Soldaini](https://soldaini.net/), [Kyle Lo](https://kyleclo.github.io/), and [Arman Cohan](https://armancohan.com/) in 2023, at Apple AI/ML with [Matthias Sperber](http://msperber.com/) in 2020 and 2021, and at AllenNLP/AI2 with [Matt Gardner](https://matt-gardner.github.io/) and [Matthew Peters](https://scholar.google.com/citations?user=K5nCPZwAAAAJ&hl=en) in 2020.
 
