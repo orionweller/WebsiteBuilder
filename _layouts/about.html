@@ -12,6 +12,44 @@ layout: default
         </header>
 
         <article>
+          <style>
+            .collapse-toggle { text-decoration: none; }
+            .collapse-toggle .fa-chevron-down { transition: transform .2s ease; }
+            .collapse-toggle[aria-expanded="true"] .fa-chevron-down { transform: rotate(180deg); }
+          </style>
+          <!-- Job market + impact highlights card -->
+          <div class="card border-danger my-3">
+            <div class="card-header bg-danger text-white py-2 d-flex align-items-center justify-content-between">
+              <a class="text-white" data-toggle="collapse" href="#job-market-card" role="button" aria-expanded="true" aria-controls="job-market-card">On the job market</a>
+              <a class="text-white collapse-toggle" data-toggle="collapse" href="#job-market-card" role="button" aria-expanded="true" aria-controls="job-market-card" aria-label="Toggle details">
+                <i class="fas fa-chevron-down"></i>
+              </a>
+            </div>
+            <div id="job-market-card" class="collapse show">
+              <div class="card-body py-3">
+                <p class="mb-2">
+                  I’m seeking <strong>full‑time research scientist</strong> roles starting <strong>early 2026</strong> at the
+                  intersection of <strong>agentic search</strong> and <strong>LLMs</strong>. If there’s a good fit, please contact me at
+                  {last_name}{first_name}@gmail.com.
+                </p>
+                <ul class="mb-2">
+                  <li><strong>ModernBERT</strong>: 20M+ downloads; long‑context, fast, memory‑efficient encoder.
+                    <a href="https://arxiv.org/abs/2412.13663" target="_blank" rel="noopener noreferrer">paper</a> ·
+                    <a href="https://github.com/AnswerDotAI/ModernBERT" target="_blank" rel="noopener noreferrer">code</a>
+                  </li>
+                  <li><strong>Press coverage</strong>: my work has received media coverage, including recent work with Google DeepMind at
+                    <a href="https://venturebeat.com/ai/new-deepmind-study-reveals-a-hidden-bottleneck-in-vector-search-that-breaks" target="_blank" rel="noopener noreferrer">VentureBeat</a>.
+                  </li>
+                  <li><strong>Awards</strong>: CoLM'24 Outstanding Paper
+                    <a href="https://arxiv.org/abs/2403.12958" target="_blank" rel="noopener noreferrer">(Reverse Engineering Knowledge Cutoffs)</a>; SIGIR’24 Best Paper Nominee
+                    <a href="https://arxiv.org/abs/2405.00982" target="_blank" rel="noopener noreferrer">(Evaluating Long-Form Report Generation)</a>; ECIR’25 Honorable Mention
+                    <a href="https://arxiv.org/abs/2501.19264" target="_blank" rel="noopener noreferrer">(Evaluating instructions in IR)</a>.
+                  </li>
+                </ul>
+                <a class="btn btn-sm btn-outline-danger" href="{{ '/assets/pdf/Orion_Weller_CV.pdf' | relative_url }}">CV (Sept 2025)</a>
+              </div>
+            </div>
+          </div>
           {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
             {%- if page.profile.image %}

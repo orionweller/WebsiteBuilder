@@ -1,7 +1,9 @@
 .profile {
     img {
         box-shadow: 0 0 5px $grey-color;
-        width: 80%;
+        width: 75%;
+        display: block;
+        margin: 0 auto; // center within the profile column
     }
 }
 .address {
