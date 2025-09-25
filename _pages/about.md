@@ -21,12 +21,12 @@ I'm a final-year PhD student at the [Center for Language and Speech Processing](
 My current research interests are situated between the LM and IR fields, where I work to improve how models find, understand, and synthesize information.  Lately I have focused on three areas:
 
 
-- **Agentic search / improved retrieval:** pioneered instruction‑promptable retrievers ([Promptriever](https://arxiv.org/abs/2409.11136), ICLR’25) and created the first reasoning‑based rerankers for search ([Rank1](https://arxiv.org/abs/2502.18418) / [Rank‑K](https://arxiv.org/abs/2505.14432)).
+- **Agentic search / improved retrieval:** pioneered instruction‑promptable retrievers ([Promptriever](https://arxiv.org/abs/2409.11136)) and created the first reasoning‑based rerankers for search ([Rank1](https://arxiv.org/abs/2502.18418) / [Rank‑K](https://arxiv.org/abs/2505.14432)).
 - **Evaluation and measurement:**
   [FollowIR](https://arxiv.org/abs/2403.15246) (instruction‑following in IR; ECIR’25 Honorable Mention for multilingual version),
   [CLERC](https://arxiv.org/abs/2406.17186) (legal case retrieval + generation), and
   [Dated Data](https://arxiv.org/abs/2403.12958) (reverse engineering knowledge cutoffs in LMs; CoLM’24 Best Paper).
-- **Pre‑training (decoders, encoders, multilingual):** up to ~1B parameters and ~3T tokens; designing and training production‑quality encoders and decoders, including multilingual models, optimized for high‑throughput, low‑memory retrieval/agentic‑tool‑use. Examples: [ModernBERT](https://arxiv.org/abs/2412.13663), [Ettin](https://arxiv.org/abs/2507.11412), and [mmBERT](https://github.com/JHU-CLSP/mmBERT).
+- **Pre‑training (decoders, encoders, multilingual):** up to ~1B parameters and ~3T tokens; designing and training encoders and decoders, including multilingual models, optimized for high‑throughput, low‑memory retrieval/agentic‑tool‑use. Examples: [ModernBERT](https://arxiv.org/abs/2412.13663), [Ettin](https://arxiv.org/abs/2507.11412), and [mmBERT](https://github.com/JHU-CLSP/mmBERT).
 
 <!-- Previously I graduated with my Bachelor's degree from Brigham Young University in computer science and statistics, where I was advised by [Kevin Seppi](https://cs.byu.edu/faculty/faculty-directory/kevin-seppi/) and [Quinn Snell](https://cs.byu.edu/faculty/faculty-directory/quinn-snell/). -->
 
