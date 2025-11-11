@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 I'm a final-year PhD student at the [Center for Language and Speech Processing](https://www.clsp.jhu.edu) at Johns Hopkins University, advised by [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/) and [Dawn Lawrie](https://hltcoe.jhu.edu/researcher/dawn-lawrie/). My research is graciously supported by a [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/).
 
-My current research interests are situated between the LM and IR fields, where I work to improve how models find, understand, and synthesize information.  Lately I have focused on three areas:
+My current research interests are situated between the LM and IR fields, where **I work to improve how models find, understand, and synthesize information**.  Lately I have focused on three areas:
 
 
 - **Retrieval-Augmented Language Models** (including Agentic Search, RAG, etc.). Examples include pioneering instruction‑promptable retrievers ([Promptriever](https://arxiv.org/abs/2409.11136)), creating the first reasoning‑based rerankers for search ([Rank1](https://arxiv.org/abs/2502.18418) / [Rank‑K](https://arxiv.org/abs/2505.14432)), and [creating](https://arxiv.org/abs/2510.00143)/[evaluating](https://dl.acm.org/doi/abs/10.1145/3626772.3657846) deep research style systems.
