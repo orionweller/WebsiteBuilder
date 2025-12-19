@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 I'm a final-year PhD student at the [Center for Language and Speech Processing](https://www.clsp.jhu.edu) at Johns Hopkins University, advised by [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/) and [Dawn Lawrie](https://hltcoe.jhu.edu/researcher/dawn-lawrie/). My research is graciously supported by a [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/).
 
-My current research interests are situated between the LM and IR fields, where **I work to improve how models find, understand, and synthesize information**. Lately I have focused on three areas:
+My current research interests are generally around **improving LLMs: how they find and use information, how to teach them more effectively, and how to evaluate their performance**. During my PhD I focused on three areas:
 
 
 - **Pre‑training & Mid-training:** up to ~1B parameters and ~3T tokens; designing and training encoders and decoders, including multilingual models, optimized for high‑throughput, low‑memory classification/retrieval. Examples: [ModernBERT](https://arxiv.org/abs/2412.13663), [Ettin](https://arxiv.org/abs/2507.11412), and [mmBERT](https://github.com/JHU-CLSP/mmBERT).
