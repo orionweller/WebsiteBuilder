@@ -31,7 +31,7 @@ My current research interests are generally around **improving LLMs: how they fi
 <!-- Previously I graduated with my Bachelor's degree from Brigham Young University in computer science and statistics, where I was advised by [Kevin Seppi](https://cs.byu.edu/faculty/faculty-directory/kevin-seppi/) and [Quinn Snell](https://cs.byu.edu/faculty/faculty-directory/quinn-snell/). -->
 
 In the past I've been lucky to intern with many excellent mentors:
-- At **Meta's Superintelligence Lab (MSL) in the FAIR language team** with [Xilun Chen](https://xilunchen.com/), [Barlas Oğuz](https://www.linkedin.com/in/barlas-o%C4%9Fuz-25465050/), and [Scott Yih](https://scottyih.org/)
+- At **Meta's Superintelligence Lab in FAIR** with [Xilun Chen](https://xilunchen.com/), [Barlas Oğuz](https://www.linkedin.com/in/barlas-o%C4%9Fuz-25465050/), and [Scott Yih](https://scottyih.org/)
 - At **Google Deepmind** with [Jinhyuk Lee](https://jhyuklee.github.io/), [Michael Boratko](https://www.mboratko.com/), and [Iftekhar Naim](https://www.linkedin.com/in/iftekhar-naim-6a85664/)
 - At **Samaya AI** with [Jack Hessel](https://jmhessel.com/), [Ashwin Paranjape](https://ashwinparanjape.github.io/), and [Yuhao Zhang](https://yuhao.im/)
 - At **AI2** (Semantic Scholar) working with [Luca Soldaini](https://soldaini.net/), [Kyle Lo](https://kyleclo.github.io/), and [Arman Cohan](https://armancohan.com/)
