@@ -21,8 +21,8 @@ I'm a final-year PhD student at the [Center for Language and Speech Processing](
 My current research interests are generally around **improving LLMs: how they find/use information, how to teach them more effectively, and how to evaluate their performance**. My PhD was mainly on these three areas:
 
 
-- **Pre‑training & Mid-training:** up to ~1B parameters and ~3T tokens; designing and training encoders and decoders, including multilingual models, optimized for high‑throughput, low‑memory classification/retrieval. Examples: [ModernBERT](https://arxiv.org/abs/2412.13663), [Ettin](https://arxiv.org/abs/2507.11412), and [mmBERT](https://github.com/JHU-CLSP/mmBERT).
 - **Agentic Search / Retrieval-Augmented Language Models**: Examples include pioneering instruction‑promptable retrievers ([Promptriever](https://arxiv.org/abs/2409.11136)), creating the first reasoning‑based rerankers for search ([Rank1](https://arxiv.org/abs/2502.18418) / [Rank‑K](https://arxiv.org/abs/2505.14432)), and [creating](https://arxiv.org/abs/2510.00143)/[evaluating](https://dl.acm.org/doi/abs/10.1145/3626772.3657846) deep research style systems.
+- **Pre‑training & Mid-training:** up to ~1B parameters and ~3T tokens; designing and training encoders and decoders, including multilingual models, optimized for high‑throughput, low‑memory classification/retrieval. Examples: [ModernBERT](https://arxiv.org/abs/2412.13663), [Ettin](https://arxiv.org/abs/2507.11412), and [mmBERT](https://github.com/JHU-CLSP/mmBERT).
 - **Better Evaluations:**
   [FollowIR](https://arxiv.org/abs/2403.15246) (instruction‑following in IR; ECIR’25 Honorable Mention for multilingual version),
   [CLERC](https://arxiv.org/abs/2406.17186) (legal case retrieval + generation), and
