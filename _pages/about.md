@@ -14,28 +14,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
- 
+I am a researcher at Google DeepMind working on Gemini, where I've contributed to the 3.5, 3.6, 3.7, and 3.8 series of models. My current research focuses on long-context capabilities, agentic behavior, and model collaboration for upcoming Gemini models.
 
-I'm a final-year PhD student at the [Center for Language and Speech Processing](https://www.clsp.jhu.edu) at Johns Hopkins University, advised by [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/) and [Dawn Lawrie](https://hltcoe.jhu.edu/researcher/dawn-lawrie/). My research is graciously supported by a [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/).
+Previously, I completed my PhD at the [Center for Language and Speech Processing](https://www.clsp.jhu.edu) at Johns Hopkins University, advised by [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/) and [Dawn Lawrie](https://hltcoe.jhu.edu/researcher/dawn-lawrie/) and graciously supported by an [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/). My PhD research focused on the intersection of Information Retrieval (IR) and Large Language Models (LLMs) with a focus on instruction-based and reasoning-aware retrieval ([Promptriever](https://arxiv.org/abs/2409.11136), [Rank1](https://arxiv.org/abs/2502.18418), [LIMIT](https://arxiv.org/abs/2508.21038)), encoder model pre-training ([ModernBERT](https://arxiv.org/abs/2412.13663), [mmBERT](https://arxiv.org/abs/2509.06888)), and model evaluation ([FollowIR](https://arxiv.org/abs/2403.15246), [Dated Data](https://arxiv.org/abs/2403.12958)).
 
-My current research interests are generally around **improving LLMs: how they find/use information, how to teach them more effectively, and how to evaluate their performance**. My PhD was mainly on these three areas:
-
-
-- **Agentic Search / Retrieval-Augmented Language Models**: Examples include pioneering instruction‑promptable retrievers ([Promptriever](https://arxiv.org/abs/2409.11136)), creating the first reasoning‑based rerankers for search ([Rank1](https://arxiv.org/abs/2502.18418) / [Rank‑K](https://arxiv.org/abs/2505.14432)), and [creating](https://arxiv.org/abs/2510.00143)/[evaluating](https://dl.acm.org/doi/abs/10.1145/3626772.3657846) deep research style systems.
-- **Pre‑training & Mid-training:** up to ~1B parameters and ~3T tokens; designing and training encoders and decoders, including multilingual models, optimized for high‑throughput, low‑memory classification/retrieval. Examples: [ModernBERT](https://arxiv.org/abs/2412.13663), [Ettin](https://arxiv.org/abs/2507.11412), and [mmBERT](https://github.com/JHU-CLSP/mmBERT).
-- **Better Evaluations:**
-  [FollowIR](https://arxiv.org/abs/2403.15246) (instruction‑following in IR; ECIR’25 Honorable Mention for multilingual version),
-  [CLERC](https://arxiv.org/abs/2406.17186) (legal case retrieval + generation), and
-  [Dated Data](https://arxiv.org/abs/2403.12958) (reverse engineering knowledge cutoffs in LMs; CoLM’24 Best Paper).
-
-<!-- Previously I graduated with my Bachelor's degree from Brigham Young University in computer science and statistics, where I was advised by [Kevin Seppi](https://cs.byu.edu/faculty/faculty-directory/kevin-seppi/) and [Quinn Snell](https://cs.byu.edu/faculty/faculty-directory/quinn-snell/). -->
-
-In the past I've been lucky to intern with many excellent mentors:
-- At **Meta's Superintelligence Lab in FAIR** with [Xilun Chen](https://xilunchen.com/), [Barlas Oğuz](https://www.linkedin.com/in/barlas-o%C4%9Fuz-25465050/), and [Scott Yih](https://scottyih.org/)
-- At **Google Deepmind** with [Jinhyuk Lee](https://jhyuklee.github.io/), [Michael Boratko](https://www.mboratko.com/), and [Iftekhar Naim](https://www.linkedin.com/in/iftekhar-naim-6a85664/)
-- At **Samaya AI** with [Jack Hessel](https://jmhessel.com/), [Ashwin Paranjape](https://ashwinparanjape.github.io/), and [Yuhao Zhang](https://yuhao.im/)
-- At **AI2** (Semantic Scholar) working with [Luca Soldaini](https://soldaini.net/), [Kyle Lo](https://kyleclo.github.io/), and [Arman Cohan](https://armancohan.com/)
-- At **Apple AI/ML** with [Matthias Sperber](http://msperber.com/)
-- At **AI2** (AllenNLP) with [Matt Gardner](https://matt-gardner.github.io/) and [Matthew Peters](https://scholar.google.com/citations?user=K5nCPZwAAAAJ&hl=en)
+I was fortunate to intern with great mentors at [Meta FAIR](https://research.meta.ai/), [Google DeepMind](https://deepmind.google/), [AI2](https://allenai.org/), [Samaya](https://samaya.ai/), and [Apple](https://machinelearning.apple.com/). Earlier, I received my B.S. in CS and statistics from [BYU](https://www.byu.edu), advised by [Kevin Seppi](https://scholar.google.com/citations?user=n34k65AAAAAJ) and [Quinn Snell](https://scholar.google.com/citations?user=G664L6wAAAAJ).
 
 If you're interested in getting in contact with me, please email me at {last_name}{first_name}@gmail.com.
