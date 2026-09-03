@@ -14,7 +14,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a researcher at Google DeepMind working on Gemini, where I've contributed to the 3.5, 3.6, 3.7, and 3.8 series of models. My current research focuses on long-context capabilities, agentic behavior, and model collaboration for upcoming Gemini models.
+I am a researcher at Google DeepMind working on Gemini, where I've contributed to the post-training of the 3.5, 3.6, 3.7, and 3.8 series of models. My current research focuses on long-context capabilities, agentic behavior, and model collaboration for upcoming Gemini models.
 
 Previously, I completed my PhD at the [Center for Language and Speech Processing](https://www.clsp.jhu.edu) at Johns Hopkins University, advised by [Benjamin Van Durme](https://www.cs.jhu.edu/~vandurme/) and [Dawn Lawrie](https://hltcoe.jhu.edu/researcher/dawn-lawrie/) and graciously supported by an [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/). My PhD research focused on the intersection of Information Retrieval (IR) and Large Language Models (LLMs) with a focus on instruction-based and reasoning-aware retrieval ([Promptriever](https://arxiv.org/abs/2409.11136), [Rank1](https://arxiv.org/abs/2502.18418), [LIMIT](https://arxiv.org/abs/2508.21038)), encoder model pre-training ([ModernBERT](https://arxiv.org/abs/2412.13663), [mmBERT](https://arxiv.org/abs/2509.06888)), and model evaluation ([FollowIR](https://arxiv.org/abs/2403.15246), [Dated Data](https://arxiv.org/abs/2403.12958)).
 
