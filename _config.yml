@@ -8,7 +8,7 @@ middle_name:
 last_name: Weller
 # email: you@example.com
 description: >
-  Personal website of Orion Weller, researcher at Google DeepMind working on Gemini, long-context capabilities, and agentic behavior.
+  Personal website of Orion Weller
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 # keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
