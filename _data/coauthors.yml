@@ -16,22 +16,22 @@
 
 "Seppi":
   - firstname: ["Kevin", "K."]
-    url: https://cs.byu.edu/faculty/faculty-directory/kevin-seppi/
+    url: https://cs.byu.edu/directory/kevin-seppi
 
 "Snell":
   - firstname: ["Quinn", "Q."]
-    url: https://cs.byu.edu/faculty/faculty-directory/quinn-snell/
+    url: https://cs.byu.edu/directory/quinn-snell
 
 "Hanson":
   - firstname: ["Carl", "C."]
     url: https://lifesciences.byu.edu/directory/carl-hanson
 
 "Barnes":
-  - firstname: ["Barnes", "B."]
+  - firstname: ["Michael", "M."]
     url: https://lifesciences.byu.edu/directory/michael-barnes
 
 "Tass":
-  - firstname: ["Shannon", "S."]
+  - firstname: ["Shannon", "S.", "E. Shannon"]
     url: https://neeley-tass.byu.edu/
 
 "Fulda":
@@ -66,16 +66,12 @@
   - firstname: ["Wilson", "W."]
     url: https://www.linkedin.com/in/wilson-fearn-980153142/
 
-"Seppi":
-  - firstname: ["Kevin", "K."]
-    url: https://cs.byu.edu/faculty/faculty-directory/kevin-seppi/
-
 "Durme":
-  - firstname: ["Benjamin Van", "B."]
+  - firstname: ["Benjamin Van", "Benjamin", "B."]
     url: https://www.cs.jhu.edu/~vandurme/
 
 "Van Durme":
-  - firstname: ["Benjamin Van", "B."]
+  - firstname: ["Benjamin Van", "Benjamin", "B."]
     url: https://www.cs.jhu.edu/~vandurme/
 
 "Lawrie":

@@ -6,7 +6,7 @@ date: 2024-05-14
 
 authors:
   - name: Orion Weller
-    url: "orionweller.com"
+    url: "https://orionweller.com"
     affiliations:
       name: Johns Hopkins University
 
@@ -62,7 +62,7 @@ There are a number of problems in reviewing (poor quality reviews, GPT-generated
 This blog post focuses on the question "who is reviewing?" Although I can't answer this question for all ML venues, I can answer it for the Natural Language Processing (NLP) community which reliably publishes a list of reviewers in their proceedings. Through this, I can gather fine-grained information for *how many times* individuals are reviewing compared to *how many papers* they publish.
 
 ## Data
-I scraped all PDF proceedings from *CL conferences from the [ACL Anthology](https://aclanthology.org/) website. Each proceedings contains a list of reviewers who reviewed at the conference. Note: this is **not the number of papers** they reviewed, **only whether they reviewed/AC'd/SAC'd at all** for *CL conference**. 
+I scraped all PDF proceedings from *CL conferences from the [ACL Anthology](https://aclanthology.org/) website. Each proceedings contains a list of reviewers who reviewed at the conference. Note: this is **not the number of papers** they reviewed, **only whether they reviewed/AC'd/SAC'd at all for a *CL conference**. 
 
 <figure>
     {% include figure.html path="assets/img/proceedings.png" class="img-fluid rounded z-depth-1" %}
@@ -79,10 +79,10 @@ I also manually annotated some of the data to provide deeper insight that could 
 ### ⚠️ Caveats
 ⚠️⚠️⚠️
 - This data **only includes reviewing and publications at *CL venues**. It is possible (and likely) that people are also reviewing for ML/Speech/Vision conferences. However, I think it reasonable to expect everyone who publishes at *CL venues to also provide service for the NLP community so I don't think this provides an excuse not to review.
-- There are many types of academic service (PCs, ACL board, etc.). It is non-trivial to decide a weighting for these, thus I simply count them equally -- but clearly the nature of the service is quite different. However, since the number of people who fill these extremely high world-load positions is small it has little impact on the overall analysis (and none of them were annotated in the analysis section).
+- There are many types of academic service (PCs, ACL board, etc.). It is non-trivial to decide a weighting for these, thus I simply count them equally -- but clearly the nature of the service is quite different. However, since the number of people who fill these extremely high workload positions is small it has little impact on the overall analysis (and none of them were annotated in the analysis section).
 - The data only contains the number of **times** someone has reviewed. Thus, someone could have taken on a lighter load and have been counted equally high. However, the number of papers reviewed is not public and overall, I think this is a relatively minor issue.
 - This data also doesn't capture some forms of service, such as people who sub-review.
-- This data **does** capture SAC/AC/etc and I will refer them as "reviewers" even though their job description is different. Thus when I talked about "reviewing" remember that means reviewing/AC'ing/SAC'ing etc.
+- This data **does** capture SAC/AC/etc and I will refer to them as "reviewers" even though their job description is different. Thus when I talked about "reviewing" remember that means reviewing/AC'ing/SAC'ing etc.
 
 ### Data Quality
 I manually selected only the PDF pages that contained reviewer information from the proceedings.
@@ -96,7 +96,7 @@ For an example of how this worked see the example below. It removed affiliations
     <figcaption>An example of what the automated extraction did to the reviewer list</figcaption>
 </figure>
 
-This process is potentially noisy, so I examined 50 different `GPT-3.5-turbo` based extractions. In 49 cases it was correct -- however, in one case the last name was hyphenated when it should have not been. However, none of the manually annotated names that I annotated had hypens so this would only impact the overall statistics section.
+This process is potentially noisy, so I examined 50 different `GPT-3.5-turbo` based extractions. In 49 cases it was correct -- however, in one case the last name was hyphenated when it should have not been. However, none of the manually annotated names that I annotated had hyphens so this would only impact the overall statistics section.
 
 The other source of noise is the ACL Anthology name matching. I checked 10 names and they all seemed correct, but it is possible there are other errors I missed -- if your name doesn't match up on the ACL Anthology please contact them! 
 
@@ -131,7 +131,7 @@ I manually annotated demographics for the top 25 offenders (ranging from 30 to 1
 | Category    | Type       | Count |
 |:-------------:|------------|:-------:|
 |       Region      | Europe <br> Asia <br> North America  | 4 <br> 12 <br> 9     |
-| Pronouns    | He/Him    <br> Her/She  | 22 <br> 3  |
+| Pronouns    | He/Him    <br> She/Her  | 22 <br> 3  |
 | Seniority   | Student <br> Junior <br> Senior <br>     | 1 <br> 2 <br> 22    |
 | Affiliation | Government <br> Industry <br> Academia   | 2 <br> 7 <br> 16     |
 |    H-Index          | Average <br> Min <br> Max  | 54.3 <br> 8 <br> 160+ |
@@ -146,7 +146,7 @@ We can also examine the opposite -- who are the kind souls who are reviewing des
 | Category    | Type       | Count |
 |:-------------:|------------|:-------:|
 |       Region      | Europe <br> Asia <br> North America  | 8 <br> 1 <br> 16     |
-| Pronouns    | He/Him    <br> Her/She  | 19 <br> 6  |
+| Pronouns    | He/Him    <br> She/Her  | 19 <br> 6  |
 | Seniority   | Student <br> Junior <br> Senior <br>     | 0 <br> 6 <br> 19    |
 | Affiliation | Government <br> Industry <br> Academia   | 1 <br> 15 <br> 9     |
 |    H-Index          | Average <br> Min <br> Max  | 13.4 <br> 2 <br> 27 |
@@ -167,7 +167,7 @@ There is no magic number of times that one should review per publication -- howe
 
 A relatively service-friendly ratio might be something like 5 publications to one time reviewing/AC/SAC'ing (given that reviewers are typically asked to review five papers per conference and that it is the 85th percentile). 
 
-On one hand, reviewing/AC/SAC'ing once per every 5 papers becomes difficult for very senior researchers, who publish lots of papers! On the other hand, our community needs senior reviewers/AC/SAC'ing along with the less experienced reviewers (especially for the AC's and SAC's), so researchers who publish many papers without reviewing as much leaves the community bereft of their wisdom and forces more and more junior people to take on these roles.
+On one hand, reviewing/AC/SAC'ing once per every 5 papers becomes difficult for very senior researchers, who publish lots of papers! On the other hand, our community needs senior reviewers/ACs/SACs along with the less experienced reviewers (especially for the ACs and SACs), so researchers who publish many papers without reviewing as much leaves the community bereft of their wisdom and forces more and more junior people to take on these roles.
 
 
 #### Statistics of Published and Reviewing Authors
@@ -178,7 +178,7 @@ What are the demographics of those who have the worst *Papers Per Reviewing Time
 | Category    | Type       | Count |
 |:-------------:|------------|:-------:|
 |       Region      | Europe <br> Asia <br> North America  | 8 <br> 6 <br> 11     |
-| Pronouns    | He/Him    <br> Her/She  | 25 <br> 0  |
+| Pronouns    | He/Him    <br> She/Her  | 25 <br> 0  |
 | Seniority   | Student <br> Junior <br> Senior <br>     | 0 <br> 1 <br> 24    |
 | Affiliation | Government <br> Industry <br> Academia   | 1 <br> 8 <br> 16     |
 |    H-Index          | Average <br> Min <br> Max  | 66.8 <br> 12 <br> 200+ |
@@ -193,7 +193,7 @@ What about people from normal ranges? I sampled people who have reviewed between
 | Category    | Type       | Count |
 |:-------------:|------------|:-------:|
 |       Region      | Europe <br> Asia <br> North America  | 16 <br> 6 <br> 16     |
-| Pronouns    | He/Him    <br> Her/She  | 31 <br> 7  |
+| Pronouns    | He/Him    <br> She/Her  | 31 <br> 7  |
 | Seniority   | Student <br> Junior <br> Senior <br>     | 9 <br> 23 <br> 6    |
 | Affiliation | Government <br> Industry <br> Academia   | 0 <br> 11 <br> 27     |
 |    H-Index          | Average <br> Min <br> Max  | 12.7 <br> 5 <br> 32 |
@@ -227,7 +227,7 @@ North American affiliates review the most on average, followed by Europe affilia
 |    Junior (<7 years post-PhD)         | 6.7  |
 |    Senior (> 7 years post-PhD)         | 4.2  |
 
-We see that those post-PhD but less than 7 years after review/AC/SAC the most. Senior researchers review/AC/SAC the least.
+We see that those post-PhD but less than 7 years after graduation review/AC/SAC the most. Senior researchers review/AC/SAC the least.
 
 | Academia vs Industry       | Average Reviews |
 |------------|-------:|
@@ -269,14 +269,14 @@ I'm not going to end with any suggestions, other than to say that I hope the com
 
 Currently not - I don't want prominent members of the community to dislike me and deny me opportunities for jobs! Perhaps post-PhD (feel free to send me job offers ;)).
 
-> Can you tell me what my (or my friends) Papers Per Reviewing Time number is?
+> Can you tell me what my (or my friends') Papers Per Reviewing Time number is?
 
 Sure, send me an email to get yours (not your friends). But since you've done your own reviewing, feel free to compute your Papers Per Reviewing Time using those numbers!
 
 ## Acknowledgments
 I'd like to thank Luca Soldaini and Kyle Lo who helped inspire this project and provided useful feedback. I'd also like to thank Marc Marone, Nathaniel Weir, Aleem Khan, and Michael Saxon for their advice on data processing and proofreading. 
 
-## BibText
+## BibTeX
 If you found this blogpost useful and would like to cite it, you can cite it as:
 ```
 @misc{weller2024reviewing,
